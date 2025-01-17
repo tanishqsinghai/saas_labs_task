@@ -1,5 +1,5 @@
 import React from "react";
-import { PAGE_SIZE } from "/src/constants";
+import { PAGE_SIZE } from "../../constants.js";
 
 function Pagination({ pageNo, data, setPageNo }) {
   const lastPageNum =

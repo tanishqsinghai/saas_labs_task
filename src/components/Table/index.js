@@ -1,6 +1,6 @@
 import React from "react";
 import { COLUMN_DETAILS } from "./constants";
-import { PAGE_SIZE } from "/src/constants";
+import { PAGE_SIZE } from "../../constants";
 
 function Table({ data, pageNo }) {
   const COLUMN_HEADERS = Object.keys(COLUMN_DETAILS);
